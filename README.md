@@ -6,11 +6,11 @@ This repository contains two shell scripts for automating the backup process of 
 ## Redis Backup Script
 
 ### Description
-The `redis_backup.sh` script creates a backup of the Redis database by copying the `dump.rdb` file to a specified backup directory. The backup files are stored in the user's home directory.
+The `redisbackup.sh` script creates a backup of the Redis database by copying the `dump.rdb` file to a specified backup directory. The backup files are stored in the user's home directory.
 
 ### Usage
 ```bash
-./redis_backup.sh
+./redisbackup.sh
 ```
 
 ### Configuration
@@ -23,7 +23,8 @@ The `mysql_backup.sh` script creates backups of specified MySQL databases using 
 
 ### Usage
 ```bash
-./mysql_backup.sh
+./mysqlbackup.sh
+./redisbackup.sh
 ```
 
 ### Configuration
