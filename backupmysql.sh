@@ -4,7 +4,7 @@ DATE=$(date +"%Y%m%d%H%M%S")
 MYSQL_BACKUP_DIR="$HOME/mysql_backups"
 MYSQL_USER="your_mysql_username"
 MYSQL_PASSWORD="your_mysql_password"
-DATABASES=("database1" "database2")
+DATABASES=("database1")
 
 mkdir -p "$MYSQL_BACKUP_DIR"
 
